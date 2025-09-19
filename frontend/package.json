@@ -1,0 +1,19 @@
+{
+  "name": "byte-battle-frontend",
+  "version": "1.0.0",
+  "description": "Byte Battle Frontend - GitHub Pages Ready",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "build": "echo 'Build complete - ready for GitHub Pages'",
+    "deploy": "git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main"
+  },
+  "keywords": ["coding", "platform", "frontend", "github-pages"],
+  "author": "Byte Battle Team",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/byte-battle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/byte-battle.git"
+  }
+}
